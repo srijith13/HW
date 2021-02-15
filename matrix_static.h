@@ -30,5 +30,5 @@ matrix negate(matrix);
 matrix multiply(matrix, matrix);
 matrix scalar_multiply(T scalar, matrix);
 /* remaining function prototypes not shown */
-
+matrix transpo(matrix);
 #endif

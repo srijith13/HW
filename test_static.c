@@ -1,7 +1,7 @@
 /* File: test_static.c */
-#include "matrix.h"
-
-int main() 
+#include<stdio.h>
+#include"matrix_static.h"
+void main()
 {
   static T data[] = {1,2,3,4};
   matrix  a,b;
@@ -14,5 +14,7 @@ int main()
   matrix_print(b);
   printf("\n a+b:");
   matrix_print(add(a,b));
+  printf("\n tanspose of a :");
+  matrix_print(transpo(a));
 }
 
