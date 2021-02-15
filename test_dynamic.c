@@ -1,4 +1,5 @@
 /* File: test_dynamic.c */
+#include<stdio.h>
 #include "matrix_dynamic.h"
 
 int main() 
@@ -14,5 +15,8 @@ int main()
   matrix_print(b);
   printf("\n a+b:");
   matrix_print(add(a,b));
+  printf("\n transpose of a: ");
+  matrix_print(transpo(a));
+
 }
 
